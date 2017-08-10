@@ -1,0 +1,17 @@
+.tamanho{
+    width: 5%;
+}
+
+/*.row > div {border:10px solid white}*/
+.B {
+    background: greenyellow;
+    /*background-image: url("../imagens/logo.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    min-height: 60px;
+    height:auto;
+}
+.G {background:#167AB8; min-height: 60px;
+    height:auto;}
+.O {background:#167AB8; min-height: 60px;
+    height:auto;}

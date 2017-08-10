@@ -1,0 +1,16 @@
+<?php
+    include_once "menu.phtml";
+?>
+<div class="container-fluid">
+    <h1>Contato</h1>
+    <?php
+        foreach ($this->views->pai as $pais){
+            echo $pais['nome'].'<br>';
+            foreach ($this->views->filho($pais['id']) as $filhos){
+                echo $filhos['nome'].'<br>';
+            }
+        }
+    ?>
+</div>
+<br><br><br>
+<hr>

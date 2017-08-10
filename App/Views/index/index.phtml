@@ -1,0 +1,15 @@
+<?php
+    include_once "teste.phtml";
+    include_once "menu.phtml";
+?>
+
+<div class="container-fluid">
+    <h1>Index</h1>
+    <?php
+    foreach ($this->views->cliente as $client){
+        echo $client['nome'].'<br>';
+        echo $client['email'];
+        echo '<hr>';
+    }
+    ?>
+</div>
